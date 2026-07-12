@@ -1,58 +1,83 @@
 #  Handwritten Digit Recognition using CNN (LeNet-5)
 
-###  Introduction
+## Overview
 
-This project implements a **Convolutional Neural Network (CNN)** based on the **LeNet-5 architecture** to classify handwritten digits (0–9) from the **MNIST dataset**.
-It demonstrates how deep learning models can automatically learn spatial hierarchies of features from images, achieving high accuracy in image classification tasks.
-The project is completed and finalized as part of my AI and Deep Learning learning journey.
+Handwritten Digit Recognition is a deep learning project to recognize handwritten digits from images using Convolutional Neural Network (CNN). The model is trained on the MNIST dataset, which includes thousands of handwritten digits of 0-9.
 
----
+I built this project as a practical exercise to learn more about deep learning, image classification and TensorFlow/Keras. It was very useful for me to learn how convolutional neural networks learn visual patterns and classify handwritten digits with high accuracy.
 
-###  Project Overview
+## Features
 
-The workflow includes:
+### Recognition of digits
+- recognises handwriting digits from 0 to 9
+- It predicts the digit from the input image
+- Precise and quick image classification
 
-1. **Data Loading** – Using the MNIST dataset of 70,000 grayscale digit images (28x28 pixels).
-2. **Data Preprocessing** – Normalizing image pixel values and reshaping input data for CNNs.
-3. **Model Architecture** – Building a CNN with:
+### Deep Learning Model 
+- Convolutional Neural Network (CNN) 
+- Trained on the MNIST dataset
+- Learns image features by itself
 
-   * Convolutional and pooling layers for feature extraction
-   * Dense layers for classification
-   * Softmax activation for multi-class output
-4. **Model Training** – Compiling with **categorical cross-entropy** loss and the **Adam optimizer**.
-5. **Evaluation** – Measuring model accuracy and visualizing predictions.
+### Model evaluation
+- Training and validation accuracies
+- Evaluation of performance on unseen test images
+- Custom hand written digits prediction
 
----
+## User experience
+- Simple, notebook implementation
+- Simple, easy to follow workflow
+- Robust model architecture
 
-###  Tools & Libraries Used
+## Tech Stack
 
-* **Python 3.12**
-* **TensorFlow** and **Keras** – Deep learning framework
-* **NumPy**, **Matplotlib** – Data handling and visualization
-* **MNIST Dataset** – Preloaded dataset from `keras.datasets`
+### Programming Language
+- Python
 
----
+### Deep Learning
+- TensorFlow
+- Keras
 
-###  Implementation Summary
+### Libraries
+- NumPy
+- Matplotlib
 
-* Loaded and normalized the MNIST dataset.
-* Built a CNN using **Conv2D**, **MaxPooling2D**, **Flatten**, and **Dense** layers.
-* Trained the model for multiple epochs to minimize validation loss.
-* Achieved over **99% accuracy** on the test set.
-* Visualized predictions and performance metrics (accuracy and loss curves).
+### Dataset
+- MNIST Handwritten Digit Dataset
 
----
+### Development Tools
+- Jupyter Notebook
+- Git
+- GitHub
+- Visual Studio Code
+  
+## How does the project work ?
 
-###  Results
+1. Load MNIST dataset of hand-drawn digits.
+2. Normalization of image pixel values.
+3. Construct a Convolutional Neural Network (CNN).
+4. Train the model on the training dataset.
+5. Testing the model on test dataset.
+6. Predict handwritten digits given input images.
+7. Display predicted digit.
+   
+## Installation
 
-| Metric            | Value       |
-| ----------------- | ----------- |
-| Training Accuracy | ~99.2%      |
-| Test Accuracy     | ~99.0%      |
-| Loss              | <0.05       |
-| Model             | LeNet-5 CNN |
+### Open Project
+1. Clone or download the repo.
+2. Open the project folder on Jupyter notebook or Visual Studio Code.
+3. Install all the Python libraries needed.
+4. Run the notebook cells one after the other.
+5. Fit the model and predict on handwritten digit images.
 
-The model successfully classifies handwritten digits with near-perfect accuracy on MNIST data.
+## What I Learned
 
----
+Through this project, I gained knowledge in the fundamentals of deep learning, convolutional neural networks, image preprocessing, model training and evaluating image classification models using TensorFlow and Keras.
 
+## Author
+
+**ARELLI SANJAY**
+- GitHub: https://github.com/arelli-sanjay
+- Linkedin: https://www.linkedin.com/in/sanjay-arelli-2b0970383/
+
+## Support
+If you like the Handwritten Digit Recognition using CNN consider giving it a star, on GitHub.
