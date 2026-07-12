@@ -6,7 +6,7 @@ Handwritten Digit Recognition is a deep learning project to recognize handwritte
 
 I built this project as a practical exercise to learn more about deep learning, image classification and TensorFlow/Keras. It was very useful for me to learn how convolutional neural networks learn visual patterns and classify handwritten digits with high accuracy.
 
-## Features
+## Features 
 
 ### Recognition of digits
 - recognises handwriting digits from 0 to 9
