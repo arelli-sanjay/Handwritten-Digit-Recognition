@@ -23,7 +23,7 @@ I built this project as a practical exercise to learn more about deep learning, 
 - Evaluation of performance on unseen test images
 - Custom hand written digits prediction
 
-## User experience
+### User experience
 - Simple, notebook implementation
 - Simple, easy to follow workflow
 - Robust model architecture
